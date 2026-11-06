@@ -1,0 +1,4 @@
+-r requirements.txt
+gradio==6.31.0
+pytest==9.2.0
+ruff==0.17.4
