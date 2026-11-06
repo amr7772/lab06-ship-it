@@ -1,0 +1,48 @@
+{
+  "scikit_learn_version": "1.9.1",
+  "seed": 42,
+  "threshold": 0.65,
+  "numeric_features": [
+    "distance_km",
+    "items",
+    "hour",
+    "courier_months"
+  ],
+  "categorical_features": [
+    "weather",
+    "day_type",
+    "vehicle"
+  ],
+  "excluded_features": [
+    "order_id",
+    "prep_minutes",
+    "customer_rating"
+  ],
+  "best_params": {
+    "model__C": "0.01",
+    "model__class_weight": "balanced"
+  },
+  "best_cv_f1": 0.4464,
+  "train_cost_at_threshold": 4194,
+  "test": {
+    "threshold": 0.65,
+    "confusion_matrix": [
+      [
+        586,
+        47
+      ],
+      [
+        73,
+        44
+      ]
+    ],
+    "precision": 0.4835,
+    "recall": 0.3761,
+    "f1": 0.4231,
+    "roc_auc": 0.7747,
+    "flagged": 91,
+    "cost_flag_nobody": 1755,
+    "cost_flag_everybody": 3000,
+    "cost_model": 1459
+  }
+}
