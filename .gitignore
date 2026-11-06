@@ -1,0 +1,16 @@
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environments and secrets
+.env
+.venv/
+venv/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# models/ is NOT ignored on purpose: the Space needs the saved pipeline
