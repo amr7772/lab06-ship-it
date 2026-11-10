@@ -17,7 +17,7 @@ short_description: Will this order arrive late?
 
 A dispatcher types in what is known when an order is placed, and the page says how likely the order is to arrive late and whether to offer the customer a $4 voucher. The model behind it is the Lab 05 scikit-learn pipeline, loaded as it was saved.
 
-Live page: https://huggingface.co/spaces/YOUR-USERNAME/lab06-ship-it
+Live page: https://huggingface.co/spaces/amreleraqi09/lab06-ship-it
 
 ## How to run it locally
 
